@@ -7,7 +7,11 @@
       "Bash(git commit *)",
       "Bash(python -c \"import sys,json; nb=json.load\\(sys.stdin\\); [print\\(f'cell[{i}]: id={c[\\\\\"id\\\\\"]}, type={c[\\\\\"cell_type\\\\\"]}, lines={len\\(c[\\\\\"source\\\\\"]\\)}'\\) for i,c in enumerate\\(nb['cells']\\)]\")",
       "Bash(python -c ' *)",
-      "Read(//c//**)"
+      "Read(//c//**)",
+      "Bash(curl.exe -x http://127.0.0.1:7890 https://github.com -I --connect-timeout 5)",
+      "Bash(curl.exe -x http://127.0.0.1:10809 https://github.com -I --connect-timeout 5)",
+      "Bash(curl.exe -x http://127.0.0.1:1080 https://github.com -I --connect-timeout 5)",
+      "Bash(git pull *)"
     ]
   }
 }
