@@ -4,7 +4,10 @@
       "Bash(git config *)",
       "Bash(git remote *)",
       "Bash(git push *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(python -c \"import sys,json; nb=json.load\\(sys.stdin\\); [print\\(f'cell[{i}]: id={c[\\\\\"id\\\\\"]}, type={c[\\\\\"cell_type\\\\\"]}, lines={len\\(c[\\\\\"source\\\\\"]\\)}'\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -c ' *)",
+      "Read(//c//**)"
     ]
   }
 }
